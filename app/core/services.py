@@ -3,6 +3,7 @@ from app.infrastructure.repository import LabResultRepository
 from app.core.pdf_generator import generate_report
 from app.core.analyzer import run_analysis
 
+
 class LabResultService:
     def __init__(self, repo: LabResultRepository):
         self.repo = repo
